@@ -12,7 +12,7 @@ const getEventos = async(req, res = response) => {
     
         res.json({
             ok: true,
-            msg: eventos
+            eventos
         });
         
     } catch (error) {

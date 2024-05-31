@@ -29,7 +29,7 @@ router.post(
         fieldsValidator,
     ],
     crearEVento
-);
+);  
 
 //Actualizar evento
 router.put('/:id',
